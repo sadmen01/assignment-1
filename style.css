@@ -38,10 +38,14 @@ p {
     text-align: center;
 }
 
+.amount .text-color .red {
+    color: rgb(243, 61, 61);
+}
+
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(#ece90dea, #d3803bf8);
-    padding: 10px 40px;
+    background-image: linear-gradient(#e65d1dea, #e2223cf8);
+    padding: 50px 100px;
 
     font-weight: 700;
     border-radius: 50px;
@@ -91,6 +95,36 @@ p {
 .food p {
     text-align: left;
     font-size: 40px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.from-box {
+    pad: 100px;
+    border-radius: 10px;
+    background: #9d49c4c2;
+}
+
+.from-box input {
+    font-size: 10px;
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #ececec;
+}
+
+.from-box button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4769d8;
 }
 
 .footer {
